@@ -8,4 +8,4 @@ RUN cargo build
 
 EXPOSE 8000
 
-RUN start.sh
+CMD ["cargo","run"]

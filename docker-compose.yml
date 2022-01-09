@@ -14,4 +14,4 @@ services:
   frontend:
     build: ./src/frontend
     ports:
-      - 9989:9989
+      - 9989:8080
