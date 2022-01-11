@@ -8,4 +8,6 @@ RUN cargo build
 
 EXPOSE 8000
 
+RUN rustup override set nightly
+
 CMD ["cargo","run"]
